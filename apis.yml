@@ -1,7 +1,16 @@
 aid: geek
 name: Geek+
-description: 'Geek+ is a company surfaced as a portfolio company of d1-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Geek+ (Geekplus, HKEX: 2590) is a global leader in AI-driven autonomous mobile robot
+  (AMR) solutions for warehouse and logistics automation. Founded in 2015, it delivers end-to-end
+  smart-warehouse systems spanning shelf-to-person (PopPick), tote-to-person (RoboShuttle), pallet-to-person
+  (Skycube) storage and retrieval, robot-arm picking, sorting, and intralogistics transport. Its All-in-One
+  Software Suite (Robot Management System, Warehouse Execution System, Intelligent Warehouse Management
+  System, data and simulation platforms) exposes open REST APIs and SDKs so customers and partners can
+  integrate robot fleets with major WMS, ERP, and MES platforms including SAP, Oracle, Microsoft Dynamics,
+  Manhattan Associates, and Blue Yonder. Geek+ serves 3PL, retail, e-commerce, apparel, grocery, healthcare
+  and pharma, manufacturing, automotive, electronics, and cold-chain logistics across 40+ countries, with
+  950+ deployed warehouses. In 2025 it became the world''s first publicly listed AMR warehouse robotics
+  company on the Hong Kong Stock Exchange.'
 url: https://raw.githubusercontent.com/api-evangelist/geek/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,30 @@ x-backed-by:
 - d1-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.geekplus.com/hs-fs/hubfs/geek+%20logo%20transparent-1.png?width=200&height=76&name=geek+%20logo%20transparent-1.png
 tags:
 - Company
 - Robotics
+- Warehouse Automation
+- Logistics
+- Autonomous Mobile Robots
+- Supply Chain
+- Intralogistics
+- Fulfillment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.geekplus.com
+- type: About
+  url: https://www.geekplus.com/company/about-us
+- type: Blog
+  url: https://blog.geekplus.com/en
+- type: Support
+  url: https://www.geekplus.com/company/service-support
+- type: HelpCenter
+  url: https://www.geekplus.com/faqs
+- type: Partners
+  url: https://www.geekplus.com/company/partners
+- type: PrivacyPolicy
+  url: https://www.geekplus.com/privacy-policy
+- type: TermsOfService
+  url: https://www.geekplus.com/legal
+- type: DomainSecurity
+  url: security/geek-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
