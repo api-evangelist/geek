@@ -42,7 +42,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 image: https://www.geekplus.com/hs-fs/hubfs/geek+%20logo%20transparent-1.png?width=200&height=76&name=geek+%20logo%20transparent-1.png
 tags:
 - Company
@@ -60,6 +60,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.geekplus.com/resources/news
+  type: Blog
+- url: https://www.geekplus.com/resources/news/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://www.geekplus.com
 - type: About
